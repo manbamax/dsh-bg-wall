@@ -1,0 +1,30 @@
+{
+  "name": "dsh-bg-wall",
+  "version": "1.0.0",
+  "description": "Dynamic wallpaper plugin for DeepSeek Harness (DSH): set image, GIF, WebP or MP4 video as a full-window background with frosted-glass surfaces.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "plugin",
+    "wallpaper",
+    "background",
+    "video-wallpaper"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "client": {
+      "platform": "web"
+    }
+  }
+}
